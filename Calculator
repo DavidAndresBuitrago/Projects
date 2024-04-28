@@ -1,0 +1,30 @@
+print("Hello. Declare two numbers and the operation.")
+x = int(input())
+y = int(input())
+z = input()
+
+def addition(x,y) -> int:
+    return(x+y)
+
+def subtraction(x,y) -> int:
+    return(x-y)
+
+def multiplication(x,y) -> int:
+    return(x*y)
+
+def division(x,y) -> int:
+    return(x/y)
+
+
+
+
+if z == "add":
+    print(addition(x,y))
+elif z == "subtract":
+    print(subtraction(x,y))
+elif z == "multiply":
+    print(multiplication(x,y))
+elif z == "divide":
+    print(division(x,y))
+else:
+    print("no")
